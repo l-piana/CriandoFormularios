@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #EFEFEF;
+}
+
+.page { 
+  display: flex;
+  flex-direction: column;
+  margin: 140px auto;
+  width: 750px;
+}
+
+.page::before {
+  content: '';
+  background: #535971;
+  display: block;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 436px;
+  position: fixed;
+  z-index: -1;
+}
+
+header {
+  left: 0;
+  color: white;
+}
+
+
+header h1 {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+header p {
+  width: 417px;
+  margin: 18px 0 58px 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+form legend {
+  font-family: 'Staatliches', sans-serif;
+  color: #535971;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  border-bottom: 1px solid #E6E6F0;;
+  padding-bottom: 8px;
+  width: 100%;
+  margin-bottom: 36px;
+}
+
+form {
+  padding: 64px;
+  background: white;
+  border-radius: 20px 20px 0px 0px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.col-2 { 
+  display: flex;
+  align-content: space-between;
+  gap: 24px;
+}
+
+
+.fieldset-wrapper,
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.fieldset-wrapper label,
+.input-wrapper label {
+  color: #4E4958;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.fieldset-wrapper label span{
+  color: #C1BCCC;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 9px;
+}
+
+.fieldset-wrapper input ,
+.input-wrapper input{ 
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid  #E6E6F0;
+  background: #FAFAFC;
+  padding: 0 24px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.subfieldset legend { 
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.subfieldset { 
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.col-3 { 
+  display: flex;
+  gap: 32px;
+}
+
+.col-4 {
+  display: flex;
+  gap: 10px;
+}
+
+footer {
+  background: #535971;
+  height: 160px;
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+
+}
+
+button {
+  font-family: 'Staatliches', sans-serif;
+  margin: 52px 71px 52px 71px;
+  border-radius: 20px;
+  height: 55.652px;
+  width: 100%;
+  background: #FF5374;
+  border: none;
+  color: white;
+
+  display: flex;
+  padding: 15px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+button:hover {
+  background: #bd3e58;
+}
